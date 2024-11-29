@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AVR64DD32-I_PT")(type "KiCad")(uri "${KIPRJMOD}/lib/sym/AVR64DD32-I_PT.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP4131-503E_SN")(type "KiCad")(uri "${KIPRJMOD}/lib/sym/MCP4131-503E_SN.kicad_sym")(options "")(descr ""))
+  (lib (name "OPA2322AIDR")(type "KiCad")(uri "${KIPRJMOD}/lib/sym/OPA2322AIDR.kicad_sym")(options "")(descr ""))
+  (lib (name "OPA2322AIDR1")(type "Legacy")(uri "${KIPRJMOD}/lib/sym/OPA2322AIDR.lib")(options "")(descr "")(disabled)(hidden))
+  (lib (name "Project_Library")(type "KiCad")(uri "${KIPRJMOD}/Project_Library.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AVR64DD32-I_PT
+D 8-bit Microcontrollers - MCU 64KB, 8KB RAM, 32p, 24MHz, MVIO, 12b ADC, ZCD, DAC, 2xUART, SPI, TWI
+K
+F https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/AVR64DD32-28-Prelim-DataSheet-DS40002315B.pdf
+$ENDCMP
+#
+#End Doc Library

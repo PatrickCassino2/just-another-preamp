@@ -1,0 +1,7116 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ea16dd1c-4c81-4e9e-9570-12b82bfd1e70")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Amplifier_Audio:SSM2017P"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.62 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SSM2017P"
+				(at 7.62 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/139484016SSM2017.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Self-Contained Audio Preamplifier, DIP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio preamplifier"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SSM2017P_0_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SSM2017P_1_1"
+				(pin input line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "RG1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "REF"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 7.62 270)
+					(length 6.35)
+					(name "RG2"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x04_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Socket"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Socket_1_1"
+				(arc
+					(start 0 -4.572)
+					(mid -0.5058 -5.08)
+					(end 0 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Polarized_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_US"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.032 -1.27)
+					(mid 0 -0.5572)
+					(end -2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D_Zener"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GNDPWR"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "thatmicpre:SW_Rotary12"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Rotary12"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -5.08 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf"
+				(at -5.08 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "rotary switch with 12 positions"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Rotary12_0_0"
+				(circle
+					(center -10.16 -8.89)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -10.16 8.89)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -6.985 -9.525)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -6.985 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -6.985 9.525)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.715 -5.715)
+					(mid -1.5995 0.937)
+					(end -8.255 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 -8.89)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 8.89)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.635 -6.985)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.635 6.985)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 0) (xy -10.16 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -5.715) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -5.715) (xy -3.81 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -9.525) (xy -10.16 -15.24) (xy 5.08 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 9.525) (xy -10.16 15.24) (xy 5.08 15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 -10.16) (xy -6.985 -12.7) (xy 5.08 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 10.16) (xy -6.985 12.7) (xy 5.08 12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -8.89) (xy 3.175 -8.89) (xy 3.175 -10.16) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 8.89) (xy 3.175 8.89) (xy 3.175 10.16) (xy 5.08 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.985) (xy 4.445 -6.985) (xy 4.445 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.985) (xy 4.445 6.985) (xy 4.445 7.62) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.905) (xy 4.445 -1.905) (xy 4.445 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 1.905) (xy 4.445 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.905)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.905)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Rotary12_0_1"
+				(pin passive line
+					(at 10.16 15.24 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -10.16 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -12.7 180)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -15.24 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 12.7 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 180)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 214.63 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "043ed7c7-b952-441e-af08-07ece9e60078")
+	)
+	(junction
+		(at 195.58 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09ae56d8-0de0-4a46-b4e7-a8643a27bbb2")
+	)
+	(junction
+		(at 199.39 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c40cbf6-5865-4495-8303-a7050b08855f")
+	)
+	(junction
+		(at 207.01 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1183a07a-d7ed-466d-bc4a-5da46e0256ad")
+	)
+	(junction
+		(at 195.58 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d5f4b5c-2a2e-4ec8-9538-2a0d588c9845")
+	)
+	(junction
+		(at 199.39 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a8e39cf-66a9-49cd-9140-014dc53c3475")
+	)
+	(junction
+		(at 128.27 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3aade628-8e08-4e24-a023-f3b85880ea8d")
+	)
+	(junction
+		(at 106.68 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fb7b953-bf59-4ab1-9832-2304312e0ac0")
+	)
+	(junction
+		(at 95.25 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b3f0631-609e-4845-8ee7-1b738fc79ea2")
+	)
+	(junction
+		(at 176.53 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ba80e33-9d86-4819-9e5f-887f0c59e4a4")
+	)
+	(junction
+		(at 167.64 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64624aff-7d3f-40e9-bc7d-924d760d4737")
+	)
+	(junction
+		(at 110.49 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dca06e5-e9ab-4a14-8439-e1ffb53ce425")
+	)
+	(junction
+		(at 106.68 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e4a1149-4896-4bc6-b006-e3dd9f4c20d3")
+	)
+	(junction
+		(at 184.15 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ee04682-470b-4b97-9e6c-1806718bebac")
+	)
+	(junction
+		(at 184.15 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7eed168f-2de4-49d5-9d92-fafb809048be")
+	)
+	(junction
+		(at 186.69 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81145700-9a2d-4dcc-9732-bd487df56661")
+	)
+	(junction
+		(at 186.69 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "849f9afd-4a37-47de-81a4-626ab2ca4d96")
+	)
+	(junction
+		(at 102.87 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "885ba53b-d6f7-405d-9f0f-badb46f28eda")
+	)
+	(junction
+		(at 128.27 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a1cf430-673f-4d44-9725-f74d672eb846")
+	)
+	(junction
+		(at 214.63 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f4f7882-3a07-4aa0-8e73-950167467569")
+	)
+	(junction
+		(at 125.73 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97342199-ef35-4441-b2ab-7461c8dcf98a")
+	)
+	(junction
+		(at 191.77 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a219627c-6df1-4216-bd03-f70d3c3a5720")
+	)
+	(junction
+		(at 118.11 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab1fab8e-b698-4b50-8fc0-4926eefdb995")
+	)
+	(junction
+		(at 95.25 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2edd451-cf3d-4309-bcf8-eedecff2fd5b")
+	)
+	(junction
+		(at 176.53 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb511308-c52a-4275-ac8a-9c6a8e375f4c")
+	)
+	(junction
+		(at 106.68 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbd9907f-d539-4f12-b4fa-0c76498c9d92")
+	)
+	(junction
+		(at 207.01 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c38fa35e-e40d-4965-918b-057591d460cf")
+	)
+	(junction
+		(at 128.27 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce360de6-0487-43f3-b332-7e17e851548e")
+	)
+	(junction
+		(at 176.53 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9f87d3f-4057-47d4-aca0-94258e15f819")
+	)
+	(junction
+		(at 149.86 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db076e95-217c-45b1-822d-ea356ec226cc")
+	)
+	(junction
+		(at 149.86 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f180d908-429c-457b-8f1b-a3b76477682a")
+	)
+	(junction
+		(at 191.77 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5eb0f55-918f-4155-966f-b6c545d8e95e")
+	)
+	(wire
+		(pts
+			(xy 176.53 73.66) (xy 214.63 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "057c02e4-c811-4290-af6b-6e0b6ae0f602")
+	)
+	(wire
+		(pts
+			(xy 214.63 71.12) (xy 214.63 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a1aff0-58d0-4c05-bd93-0a6e377766f0")
+	)
+	(wire
+		(pts
+			(xy 167.64 124.46) (xy 167.64 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07605be0-fae6-4b12-8c73-088ce1eaee01")
+	)
+	(wire
+		(pts
+			(xy 149.86 78.74) (xy 149.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c22f35-a9f6-4991-b31f-d209537f7492")
+	)
+	(wire
+		(pts
+			(xy 149.86 81.28) (xy 146.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08cde8ac-e0f0-4340-bb92-2ed94e42686c")
+	)
+	(wire
+		(pts
+			(xy 186.69 135.89) (xy 195.58 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b427cf7-08c2-47e0-9adf-bfc81977f6fc")
+	)
+	(wire
+		(pts
+			(xy 158.75 121.92) (xy 167.64 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bda04c7-8964-4826-a045-f5b686c6a75f")
+	)
+	(wire
+		(pts
+			(xy 176.53 78.74) (xy 176.53 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5d5fb9-85f3-4a95-997c-500b501b21d0")
+	)
+	(wire
+		(pts
+			(xy 176.53 121.92) (xy 209.55 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14bc2542-1c2c-4fc5-8638-8bc311bba569")
+	)
+	(wire
+		(pts
+			(xy 138.43 109.22) (xy 133.35 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "151d0791-c23a-486f-9ace-82dc383896ed")
+	)
+	(wire
+		(pts
+			(xy 95.25 138.43) (xy 95.25 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f79bca-452d-4d84-881f-e09b279ebb33")
+	)
+	(wire
+		(pts
+			(xy 207.01 68.58) (xy 207.01 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19212618-b4ff-43c2-ac41-719744badce5")
+	)
+	(wire
+		(pts
+			(xy 118.11 111.76) (xy 110.49 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196c3fb7-a579-40e2-bdd4-d6eef3d46f6d")
+	)
+	(wire
+		(pts
+			(xy 149.86 76.2) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a67478e-4b18-4a53-bd86-1ac4636a3aa9")
+	)
+	(wire
+		(pts
+			(xy 106.68 134.62) (xy 106.68 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cae61af-4a5f-4422-9046-02befcfb590e")
+	)
+	(wire
+		(pts
+			(xy 106.68 151.13) (xy 106.68 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e99887e-41c0-4004-b94b-01b80fc08920")
+	)
+	(wire
+		(pts
+			(xy 149.86 78.74) (xy 146.05 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22376406-6504-4fed-a5e9-1ba5466740d8")
+	)
+	(wire
+		(pts
+			(xy 176.53 83.82) (xy 191.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "268932cf-bb31-463a-9be7-ad97f4336de7")
+	)
+	(wire
+		(pts
+			(xy 106.68 125.73) (xy 110.49 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280cc7ef-cc72-41e8-b52d-19d08336e57c")
+	)
+	(wire
+		(pts
+			(xy 195.58 138.43) (xy 195.58 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b79ff6e-0cf2-4bc2-ac7a-333f1faf3df8")
+	)
+	(wire
+		(pts
+			(xy 118.11 73.66) (xy 118.11 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc3b382-e02c-4116-a9bc-5e4df5acabfa")
+	)
+	(wire
+		(pts
+			(xy 102.87 125.73) (xy 106.68 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de64ace-5d42-49b6-8ee0-498cd8fb6c38")
+	)
+	(wire
+		(pts
+			(xy 110.49 101.6) (xy 110.49 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e60a0d9-8f33-43ea-b1b9-5ff5d02a2033")
+	)
+	(wire
+		(pts
+			(xy 199.39 68.58) (xy 176.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "306294f0-af7a-4f2a-a67c-9815cc053ef2")
+	)
+	(wire
+		(pts
+			(xy 146.05 109.22) (xy 151.13 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a4d94a-75dd-413b-b595-d116e2df2c81")
+	)
+	(wire
+		(pts
+			(xy 184.15 60.96) (xy 184.15 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3710b74d-b880-4ccf-982c-1cf75769c3dc")
+	)
+	(wire
+		(pts
+			(xy 207.01 86.36) (xy 207.01 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43002c94-ce68-499d-83d5-0f305e4357a0")
+	)
+	(wire
+		(pts
+			(xy 106.68 138.43) (xy 106.68 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b9654c5-8049-447d-8409-bc01964ebd2e")
+	)
+	(wire
+		(pts
+			(xy 130.81 78.74) (xy 128.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9014f4-90d3-42bb-bd9a-c711d3af2b66")
+	)
+	(wire
+		(pts
+			(xy 195.58 109.22) (xy 208.28 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cbea337-3ea5-407f-a7d8-b3e28bfce59f")
+	)
+	(wire
+		(pts
+			(xy 102.87 85.09) (xy 128.27 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ccb60e7-a679-416b-8a01-4e104cc8fb71")
+	)
+	(wire
+		(pts
+			(xy 176.53 86.36) (xy 199.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea0656b-e145-4461-ae31-b186b4d717fc")
+	)
+	(wire
+		(pts
+			(xy 102.87 125.73) (xy 102.87 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb9ac23-d0a8-4d7f-b964-e53df779b754")
+	)
+	(wire
+		(pts
+			(xy 158.75 109.22) (xy 186.69 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ffba5c3-0177-43da-ad08-1d8144ae0453")
+	)
+	(wire
+		(pts
+			(xy 146.05 121.92) (xy 151.13 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50020c39-a7a5-42f6-99d8-4254215ccede")
+	)
+	(wire
+		(pts
+			(xy 125.73 121.92) (xy 125.73 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d888f9-a3d2-4da0-bc35-1bab4d56ea24")
+	)
+	(wire
+		(pts
+			(xy 118.11 88.9) (xy 125.73 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2ba0c5-3da1-45da-a5b9-072cdfc7c72a")
+	)
+	(wire
+		(pts
+			(xy 214.63 88.9) (xy 214.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd703d2-5331-4e30-895f-cdd83f15f33b")
+	)
+	(wire
+		(pts
+			(xy 176.53 132.08) (xy 176.53 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6140459e-4715-4ed4-8f43-3b31549f8aa2")
+	)
+	(wire
+		(pts
+			(xy 128.27 78.74) (xy 128.27 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "652dda50-0ea4-478d-a8be-5af955a38d36")
+	)
+	(wire
+		(pts
+			(xy 199.39 83.82) (xy 199.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664f2aeb-5a01-47b8-8e8b-f4861d6a2b7e")
+	)
+	(wire
+		(pts
+			(xy 102.87 101.6) (xy 102.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66990f85-dd22-4989-ac97-ab9ec5c7b1a2")
+	)
+	(wire
+		(pts
+			(xy 176.53 88.9) (xy 207.01 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f93865-ecd2-4622-a18f-534618e42b72")
+	)
+	(wire
+		(pts
+			(xy 184.15 63.5) (xy 176.53 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cba32b1-5a1c-45ea-aa73-56097689b4b1")
+	)
+	(wire
+		(pts
+			(xy 118.11 88.9) (xy 110.49 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7074a6f3-a15c-4fcc-8e41-4dfe2bc72d15")
+	)
+	(wire
+		(pts
+			(xy 110.49 116.84) (xy 110.49 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b8e4d3-9164-4cb9-9edb-54e044d4e9f4")
+	)
+	(wire
+		(pts
+			(xy 176.53 76.2) (xy 222.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750f13eb-d877-45a8-858b-ae7950ab94e5")
+	)
+	(wire
+		(pts
+			(xy 199.39 66.04) (xy 199.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796483f8-d4a8-4b03-a1ab-1bb78c949084")
+	)
+	(wire
+		(pts
+			(xy 184.15 78.74) (xy 184.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4e82ac-d236-46a1-b30e-10dc59c0b16c")
+	)
+	(wire
+		(pts
+			(xy 191.77 63.5) (xy 191.77 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805811e4-5ad2-4375-a46a-4d4005c91625")
+	)
+	(wire
+		(pts
+			(xy 128.27 81.28) (xy 128.27 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818bec3d-1118-46d6-943d-d54f7df04be2")
+	)
+	(wire
+		(pts
+			(xy 195.58 135.89) (xy 195.58 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d15653-0f72-4880-800e-8eb4a5a5212e")
+	)
+	(wire
+		(pts
+			(xy 95.25 137.16) (xy 106.68 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85972f81-3cca-4cbc-b21c-fb4431e32c9d")
+	)
+	(wire
+		(pts
+			(xy 176.53 66.04) (xy 191.77 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87edabc6-7aa7-4ce0-8619-712bf314548d")
+	)
+	(wire
+		(pts
+			(xy 118.11 106.68) (xy 102.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8895358b-0703-4a41-bd6b-37ab72a494ca")
+	)
+	(wire
+		(pts
+			(xy 60.96 106.68) (xy 102.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c34fef-62ae-4330-ac2c-a89e63df0799")
+	)
+	(wire
+		(pts
+			(xy 95.25 146.05) (xy 95.25 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7ebdaa-bc1c-4f0f-9a58-ef6a0d20f08c")
+	)
+	(wire
+		(pts
+			(xy 95.25 148.59) (xy 106.68 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce0fb0e-b696-4d1b-88e0-68f233bba21d")
+	)
+	(wire
+		(pts
+			(xy 222.25 76.2) (xy 222.25 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916d3cc7-9332-45c2-a7d0-9fb5ee53206b")
+	)
+	(wire
+		(pts
+			(xy 191.77 81.28) (xy 191.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f86ffe-422c-4b89-a694-38e7b011a578")
+	)
+	(wire
+		(pts
+			(xy 128.27 81.28) (xy 130.81 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b764c9-00da-47f9-a52c-902de288de42")
+	)
+	(wire
+		(pts
+			(xy 102.87 113.03) (xy 102.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94cd6c5e-1725-4f42-a208-78b022fdfb19")
+	)
+	(wire
+		(pts
+			(xy 176.53 71.12) (xy 207.01 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9810333f-72ba-4ec6-8dac-ed037a4c9550")
+	)
+	(wire
+		(pts
+			(xy 106.68 148.59) (xy 106.68 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2038fa-e07b-4918-8d2b-058e60e10310")
+	)
+	(wire
+		(pts
+			(xy 176.53 81.28) (xy 184.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c7904c7-7302-4c61-a633-a30700008081")
+	)
+	(wire
+		(pts
+			(xy 149.86 81.28) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a954f4-30d8-490d-b7da-1b0d417971a1")
+	)
+	(wire
+		(pts
+			(xy 125.73 116.84) (xy 125.73 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a8b2cd-4a3c-4d93-bae3-da80abdf9f20")
+	)
+	(wire
+		(pts
+			(xy 195.58 109.22) (xy 186.69 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a953ef73-992d-4a63-8983-ae787c233568")
+	)
+	(wire
+		(pts
+			(xy 106.68 137.16) (xy 125.73 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf2c779-a7fa-40c1-8bec-68ba00a65c49")
+	)
+	(wire
+		(pts
+			(xy 128.27 85.09) (xy 128.27 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1be1412-eb08-4fa0-93e3-d365116c1d84")
+	)
+	(wire
+		(pts
+			(xy 118.11 83.82) (xy 118.11 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2533058-de0c-46e5-bb47-4e3d25a812f6")
+	)
+	(wire
+		(pts
+			(xy 95.25 92.71) (xy 123.19 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3effce3-f36e-4be6-a3fd-6de4395aa0b9")
+	)
+	(wire
+		(pts
+			(xy 167.64 135.89) (xy 176.53 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62b64f4-b53b-4065-83d9-629b1e98b9f7")
+	)
+	(wire
+		(pts
+			(xy 95.25 92.71) (xy 95.25 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b962b408-5c49-4de2-82b8-d24a2a25d08e")
+	)
+	(wire
+		(pts
+			(xy 125.73 121.92) (xy 138.43 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba1f1e8a-1777-4394-bcb5-e8bdf4ebcecc")
+	)
+	(wire
+		(pts
+			(xy 60.96 111.76) (xy 110.49 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be1c232c-e28e-4163-82ec-8d59c9b7ce3f")
+	)
+	(wire
+		(pts
+			(xy 176.53 91.44) (xy 214.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02d3ca1-fff5-46af-a4cd-0d5715434d1d")
+	)
+	(wire
+		(pts
+			(xy 60.96 92.71) (xy 95.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e12a8d-e6e8-4c3e-a56d-090126a339c3")
+	)
+	(wire
+		(pts
+			(xy 106.68 125.73) (xy 106.68 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8726912-1c6f-4566-a390-b688964e2d22")
+	)
+	(wire
+		(pts
+			(xy 123.19 92.71) (xy 123.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c2127a-11dc-40fa-97d7-9a6d9aaee52e")
+	)
+	(wire
+		(pts
+			(xy 128.27 73.66) (xy 130.81 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc4bbfb-a45a-4fac-a227-90c19059235d")
+	)
+	(wire
+		(pts
+			(xy 167.64 121.92) (xy 176.53 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1679b0c-c31c-4da0-89cb-9abc65ed2ed2")
+	)
+	(wire
+		(pts
+			(xy 186.69 124.46) (xy 186.69 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16832c2-a560-47f7-9623-408d6cfc73e2")
+	)
+	(wire
+		(pts
+			(xy 195.58 124.46) (xy 195.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24212ec-2873-4fc7-8a40-b4c284805218")
+	)
+	(wire
+		(pts
+			(xy 149.86 73.66) (xy 149.86 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24f243a-8f13-46c5-a794-584bb8f5d008")
+	)
+	(wire
+		(pts
+			(xy 125.73 88.9) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d48f5c7b-c449-4f45-8dd5-2cd4428f68eb")
+	)
+	(wire
+		(pts
+			(xy 146.05 76.2) (xy 149.86 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d692ad47-5973-496f-a5de-17de9c7353d4")
+	)
+	(wire
+		(pts
+			(xy 167.64 132.08) (xy 167.64 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de67ecee-ac92-4317-92cc-31139483ffda")
+	)
+	(wire
+		(pts
+			(xy 128.27 76.2) (xy 130.81 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "decfcfb6-cd0e-452e-a127-b8720e278842")
+	)
+	(wire
+		(pts
+			(xy 110.49 125.73) (xy 110.49 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d8bd53-2069-4381-98d4-e97574b37eba")
+	)
+	(wire
+		(pts
+			(xy 186.69 132.08) (xy 186.69 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c5bc03-6888-4445-90e4-dba8166e8bbf")
+	)
+	(wire
+		(pts
+			(xy 146.05 73.66) (xy 149.86 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b422ed-ee82-412a-a934-28f1d30f0ea5")
+	)
+	(wire
+		(pts
+			(xy 128.27 73.66) (xy 128.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e943afad-8078-46af-af90-c319fe12104f")
+	)
+	(wire
+		(pts
+			(xy 110.49 88.9) (xy 110.49 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f317ca26-1b28-4c12-b34a-790f3b2ed755")
+	)
+	(wire
+		(pts
+			(xy 176.53 124.46) (xy 176.53 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f401b65e-d78a-4a49-8320-097435bb982c")
+	)
+	(wire
+		(pts
+			(xy 95.25 134.62) (xy 95.25 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f454a024-68f8-442b-bcea-19e52b77ef3a")
+	)
+	(wire
+		(pts
+			(xy 118.11 73.66) (xy 128.27 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f3d776-6947-481a-adbd-3723885f48a4")
+	)
+	(wire
+		(pts
+			(xy 149.86 93.98) (xy 222.25 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f79d6eff-abe5-4013-8987-85bba9e779bc")
+	)
+	(wire
+		(pts
+			(xy 176.53 135.89) (xy 186.69 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb0f0635-820d-414c-9d07-2001c19b434f")
+	)
+	(wire
+		(pts
+			(xy 222.25 91.44) (xy 222.25 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2532fb-7bb9-4c6e-b067-15ad1f032bc7")
+	)
+	(wire
+		(pts
+			(xy 102.87 85.09) (xy 102.87 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee39678-906b-4477-b215-af06330d92ff")
+	)
+	(text "Gain steps from ~10dB to 60dB"
+		(exclude_from_sim no)
+		(at 207.518 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "535a21bf-2617-4af0-b3a7-bd018d5d1216")
+	)
+	(hierarchical_label "In+"
+		(shape input)
+		(at 60.96 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3be18456-c2b7-4ce1-b1c0-b4f14d358f90")
+	)
+	(hierarchical_label "Line Out-"
+		(shape output)
+		(at 209.55 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "521d6fef-fb9e-4b9d-aeb7-3cd9004d837b")
+	)
+	(hierarchical_label "+35V_AMP"
+		(shape input)
+		(at 60.96 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a92fbb1a-8378-4bc4-8384-52d4e9b08aa3")
+	)
+	(hierarchical_label "In-"
+		(shape input)
+		(at 60.96 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbfd8c3b-4c17-443d-9c7f-aa1731fca020")
+	)
+	(hierarchical_label "Line Out+"
+		(shape output)
+		(at 208.28 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fef6e518-14da-4214-b22d-a9a783b041cf")
+	)
+	(symbol
+		(lib_id "Amplifier_Audio:SSM2017P")
+		(at 125.73 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e903047")
+		(property "Reference" "U1"
+			(at 127 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THAT1512"
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 125.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 125.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "1510P08-U"
+			(at 125.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e332fa9a-d868-4c31-bb1f-d3fe0383e2cf")
+		)
+		(pin "2"
+			(uuid "ae33a728-764a-42a6-8959-5d15e65a9ed9")
+		)
+		(pin "3"
+			(uuid "1ffd71c6-9215-4832-84b2-19985486c37e")
+		)
+		(pin "4"
+			(uuid "86068ea1-3e23-4f52-a62a-16f010762c5c")
+		)
+		(pin "5"
+			(uuid "9ea0de5d-8b12-4afe-a9ad-c073a3b3ab4a")
+		)
+		(pin "6"
+			(uuid "c54449f2-fcb6-4f55-b40d-38c264a2f5d1")
+		)
+		(pin "7"
+			(uuid "a38d0455-afae-4c0c-8f28-b2c7ec57c0a2")
+		)
+		(pin "8"
+			(uuid "f4f93f26-8c5c-4fbc-9ca9-db3278fa9126")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "U701")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 102.87 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e909a76")
+		(property "Reference" "R1"
+			(at 104.14 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2k-0.1%"
+			(at 104.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 103.886 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 102.87 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" " MMB02070C1201FB200"
+			(at 102.87 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f074b67c-1bc1-4ac8-9719-9b60d1d01fda")
+		)
+		(pin "2"
+			(uuid "2a0a3ba4-3283-4400-9edf-c16e9727f1cb")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R701")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 110.49 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e90a766")
+		(property "Reference" "R2"
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2k-0.1%"
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_MELF_MMB-0207"
+			(at 111.506 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" " MMB02070C1201FB200"
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a870541-c065-49e7-8767-7c7254f58399")
+		)
+		(pin "2"
+			(uuid "c3493ae8-dced-4bb9-80d5-779c322024b5")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R702")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 106.68 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e90aff8")
+		(property "Reference" "R7"
+			(at 108.4072 129.6416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22k"
+			(at 108.4072 131.953 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 107.696 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 106.68 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MF0207FTE52-22K"
+			(at 106.68 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cd3eb5e-ad8b-488e-b42c-bef078719c76")
+		)
+		(pin "2"
+			(uuid "843382ad-bfb8-4744-b71e-713be1044fa6")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R707")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e9213a2")
+		(property "Reference" "#PWR015"
+			(at 123.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.317 121.2342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8d1e17e-4338-4492-9920-61de01da772a")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 95.25 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e92c411")
+		(property "Reference" "R28"
+			(at 96.9772 129.6416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 96.9772 131.953 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 96.266 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 95.25 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MF0207FRE52-4K7"
+			(at 95.25 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c804f092-112b-4fc7-8756-d1eb9a483024")
+		)
+		(pin "2"
+			(uuid "4bb684b2-ee25-488d-a657-4d3307564d1a")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R728")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 95.25 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e92deb1")
+		(property "Reference" "D17"
+			(at 97.2566 141.0716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18V"
+			(at 97.2566 143.383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal"
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "BZX55B18-TAP"
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b67fc7d1-b491-4418-9ba1-5cc0d224d7ad")
+		)
+		(pin "2"
+			(uuid "ee034267-98d3-4322-9adf-82734d79f19d")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "D717")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 106.68 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e92e958")
+		(property "Reference" "C18"
+			(at 109.601 141.0716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220u-63V"
+			(at 109.601 143.383 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 106.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 106.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "UVZ1E102MPD1CM"
+			(at 106.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cab2db5-fb40-4e82-817b-554e5de43753")
+		)
+		(pin "2"
+			(uuid "e7df76a4-d273-4d47-b26e-6b899118f602")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "C718")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e930e0c")
+		(property "Reference" "#PWR024"
+			(at 106.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.807 155.5242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7b4eaac-103f-44e8-9f94-b44360435731")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 142.24 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e9732a7")
+		(property "Reference" "C14"
+			(at 142.24 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47u-50V"
+			(at 142.24 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+			(at 146.05 108.2548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "UFW1H470MED1TD"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2282c176-cff5-4bd1-875f-2c91b7db4ddb")
+		)
+		(pin "2"
+			(uuid "02fef1e5-009b-4700-9785-7c56b277b0e7")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "C714")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 195.58 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e97421a")
+		(property "Reference" "R27"
+			(at 197.3072 127.1016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 197.3072 129.413 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_MELF_MMB-0207"
+			(at 196.596 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 195.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MMB02070C4702FB200"
+			(at 195.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bc8c86e-aa98-40d4-894c-42fd3aa79d34")
+		)
+		(pin "2"
+			(uuid "31a6202a-b96f-4e8f-bef5-2677711d62e7")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R727")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e9755e8")
+		(property "Reference" "C15"
+			(at 189.611 127.1016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 189.611 129.413 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+			(at 187.6552 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 186.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "PHE426DJ5100JR05"
+			(at 186.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e60e252c-0487-4ccf-8262-21aef0c96c0e")
+		)
+		(pin "2"
+			(uuid "f44c72f8-61f5-4763-b8ad-090d22f548a4")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "C715")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e975dc3")
+		(property "Reference" "#PWR018"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.707 142.8242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "064b4554-7531-42d8-8ab5-2d5bb5ce655a")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 154.94 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e981719")
+		(property "Reference" "R29"
+			(at 154.94 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 154.94 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 154.686 122.936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 154.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MF0207FTE52-100R"
+			(at 154.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "516ef96a-3bf4-476b-a501-d8f453a93ba1")
+		)
+		(pin "2"
+			(uuid "24a009aa-7841-4c7b-9189-89e8b11ed140")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R729")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 176.53 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e981723")
+		(property "Reference" "R30"
+			(at 178.2572 127.1016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 178.2572 129.413 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_MELF_MMB-0207"
+			(at 177.546 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 176.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MMB02070C4702FB200"
+			(at 176.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a89079e-c8fa-40a5-b6a5-3d30ad1dc507")
+		)
+		(pin "2"
+			(uuid "06af5da0-561d-4b1d-a869-4c70ce7ebe82")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R730")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005e98172d")
+		(property "Reference" "C17"
+			(at 170.561 127.1016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 170.561 129.413 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+			(at 168.6052 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 167.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "PHE426DJ5100JR05"
+			(at 167.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22639adb-e5d5-4288-a50e-2410b5317769")
+		)
+		(pin "2"
+			(uuid "482c54f2-0028-4760-981b-1d415d789856")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "C717")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 110.49 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ebcd2e7")
+		(property "Reference" "D5"
+			(at 110.744 101.5746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 110.744 103.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal"
+			(at 110.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 110.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "1N4148"
+			(at 110.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a43c536-eb5a-4c07-be96-0aba7b5a3378")
+		)
+		(pin "2"
+			(uuid "b831862f-fbb4-44c4-948e-9f19a8f61648")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "D705")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 102.87 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ec17c12")
+		(property "Reference" "D6"
+			(at 102.87 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 102.87 103.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "1N4148"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ad20eee-f220-4422-917d-83cbdc5dd182")
+		)
+		(pin "2"
+			(uuid "556272a3-d64e-4358-8dd2-6753e4dd30b5")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "D706")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "thatmicpre:SW_Rotary12")
+		(at 166.37 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ed7e68c")
+		(property "Reference" "SW3"
+			(at 163.83 56.3626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Rotary12"
+			(at 163.83 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "my_kicad_footprints:LORINCK1049"
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf"
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 166.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "SR2612F-0112-38F5B-D8-S"
+			(at 166.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd32cf74-460b-4cb4-ace3-339965e3b5cf")
+		)
+		(pin "10"
+			(uuid "c4b51b46-fcac-4b06-9046-873387ca4a6d")
+		)
+		(pin "11"
+			(uuid "b5616596-6b48-4b70-9ffa-f48ff315c85e")
+		)
+		(pin "12"
+			(uuid "fceee8ad-9997-4843-8e3d-0fd954558539")
+		)
+		(pin "2"
+			(uuid "e160c611-5ea1-4bdc-8a08-6e7471b8f9f2")
+		)
+		(pin "3"
+			(uuid "ec8cacdd-f7f3-46fe-b1a0-d4133eca6f6e")
+		)
+		(pin "4"
+			(uuid "5f7a5e35-3bb7-494a-a61e-a957698efc6d")
+		)
+		(pin "5"
+			(uuid "5fa07cbc-29b3-4d47-8b49-aeff7c448787")
+		)
+		(pin "6"
+			(uuid "3bd2f0df-6432-48de-96a8-a05cf4fa7a48")
+		)
+		(pin "7"
+			(uuid "e7d645fe-573d-48e4-ab7d-dbddfe3ac1b3")
+		)
+		(pin "8"
+			(uuid "249e4bd7-2632-4757-a4c6-15f48de54667")
+		)
+		(pin "9"
+			(uuid "ed0a5934-bc81-44d1-a235-e40b850ba70b")
+		)
+		(pin "A"
+			(uuid "2110c19a-d274-452e-b4c6-1e73531d5e4d")
+		)
+		(instances
+			(project ""
+				(path "/5a23be12-0850-41bb-811f-4165a626d783"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "SW703")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 218.44 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c6fbefd-44cf-4aca-af62-698a9f5ae86d")
+		(property "Reference" "R719"
+			(at 218.44 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "71"
+			(at 218.44 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 218.186 74.676 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 218.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MFR50SFTE52-71R"
+			(at 218.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f86bad0-ca2d-4aa1-a33f-0769a9d3bc09")
+		)
+		(pin "2"
+			(uuid "c2bb28e2-a4c4-48ab-8930-805c8ffc44e3")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R719")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R719")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 203.2 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25bd4303-734c-4a6f-a2e3-aadf227f1979")
+		(property "Reference" "R717"
+			(at 203.2 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "237"
+			(at 203.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 202.946 69.596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 203.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MFR50SFTE52-237R"
+			(at 203.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "097eb031-a2a1-4018-b929-827cadd997d5")
+		)
+		(pin "2"
+			(uuid "fbcb4c10-309b-4e38-9295-8279139af5f1")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R717")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R717")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 187.96 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b7c6697-c0b4-49d2-8166-5cfd801f2e5e")
+		(property "Reference" "R715"
+			(at 187.96 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "909"
+			(at 187.96 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 187.706 64.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 187.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MFR50SFTE52-909R"
+			(at 187.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54bbc5fa-cebd-4e95-adbb-dc3ce0592156")
+		)
+		(pin "2"
+			(uuid "95f37ffc-49df-4150-a873-df172c789474")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R715")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R715")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 118.11 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52f649ef-1851-40aa-abe5-1417bde4cd6c")
+		(property "Reference" "C713"
+			(at 114.554 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3300u-6V3"
+			(at 114.554 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "UFW0J332MPD"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cd9a777-793a-42b6-9487-a01f8dc27f8c")
+		)
+		(pin "2"
+			(uuid "4fe04fb3-b054-43bd-b923-deb651b696cc")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "C713")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "C713")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 142.24 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53a57073-de7d-4a15-b2fb-7711f47d1b08")
+		(property "Reference" "C716"
+			(at 142.24 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47u-50V"
+			(at 142.24 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+			(at 146.05 120.9548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 142.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "UFW1H470MED1TD"
+			(at 142.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85577d9a-b6c4-42a4-ba18-1cc07ef9afc6")
+		)
+		(pin "2"
+			(uuid "9d79f6df-eb0f-4248-b001-2c642944f5fe")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "C716")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "C716")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 154.94 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a335e98-4e33-44f0-8134-25e62c8b9b22")
+		(property "Reference" "R726"
+			(at 154.94 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 154.94 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 154.686 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MF0207FTE52-100R"
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13a603ee-3f0f-4f80-8343-96bb49f5c067")
+		)
+		(pin "2"
+			(uuid "af7b2593-b49f-4d1d-b82e-0f5329124530")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R726")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R726")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 195.58 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cc02d81-0e77-4eb2-baf9-676ed0b8b7c7")
+		(property "Reference" "R722"
+			(at 195.58 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12.4"
+			(at 195.58 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 195.326 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MFR50SFTE52-12R4"
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "205277ee-1c7f-4bbf-9bdb-325c43a2ec80")
+		)
+		(pin "2"
+			(uuid "8ecab0c9-737b-4276-8870-72259c327545")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R722")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R722")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 203.2 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dbb66fb-3147-468d-9b95-31af0a000c47")
+		(property "Reference" "R723"
+			(at 203.2 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.81"
+			(at 203.2 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 202.946 87.376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MFR50SFTE52-6R81"
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4d386f7-7cd7-4dbe-b65a-1fdcae57ac5f")
+		)
+		(pin "2"
+			(uuid "b5990aed-cb46-4359-b072-155606a7432c")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R723")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R723")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 180.34 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75c730fd-ccad-4044-8ca9-1b02a44811a6")
+		(property "Reference" "R720"
+			(at 180.34 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39"
+			(at 180.34 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 180.086 79.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MFR50SFTE52-39R"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "285a9583-8670-477c-96c9-a4e7db991766")
+		)
+		(pin "2"
+			(uuid "157b76ac-ebc7-4c64-9912-57c2d53f2c52")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R720")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R720")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 210.82 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85633196-d91b-48a1-80e0-935c8292e6b1")
+		(property "Reference" "R724"
+			(at 210.82 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9"
+			(at 210.82 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 210.566 89.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 210.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MFR50SFTE52-3R9"
+			(at 210.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63643e3e-2824-4b29-9dc6-1d046fa02051")
+		)
+		(pin "2"
+			(uuid "2a3a6bc0-feb2-4ee6-80a1-28ab90eb3573")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R724")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R724")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 187.96 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9072b84e-e836-4946-85e5-6f54354fa035")
+		(property "Reference" "R721"
+			(at 187.96 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 187.96 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 187.706 82.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MFR50SFTE52-22R"
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50340466-14ca-429b-8c04-ef15ebe8599a")
+		)
+		(pin "2"
+			(uuid "4ff17318-2e2e-4767-8f84-c07d3ec24081")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R721")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R721")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 210.82 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97707a31-9c59-4272-b365-574317c808bd")
+		(property "Reference" "R718"
+			(at 210.82 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "127"
+			(at 210.82 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 210.566 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 210.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MFR50SFTE52-127R"
+			(at 210.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "568a9034-ef17-4759-8456-0c735d256e23")
+		)
+		(pin "2"
+			(uuid "45cb1b66-04bd-44ba-a3b6-bd570adf0510")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R718")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R718")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 8.89 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fe8aa72-6de7-4a25-9abc-17d28d6fcfe8")
+		(property "Reference" "#PWR09"
+			(at 8.89 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 8.763 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 8.89 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 8.89 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 8.89 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc71e674-aa1d-4bec-a3b6-e0565d7cec28")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 135.89 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad0afcc1-2800-4a30-919c-6be5ed587439")
+		(property "Reference" "J700"
+			(at 115.316 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4-pin_45deg_socket"
+			(at 115.316 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 135.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "dfe6a91b-8691-4ea9-876d-4880d0b40550")
+		)
+		(pin "2"
+			(uuid "3508c42e-3bae-4387-ad76-6408c1b8a319")
+		)
+		(pin "3"
+			(uuid "82fd2e4b-f124-419c-817f-98bfbcf01cae")
+		)
+		(pin "1"
+			(uuid "efa27bbc-4f44-47c2-8caa-5196e6a6478b")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "J700")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "J700")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 195.58 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d82be902-93b7-45d3-9320-04b0bbbe9842")
+		(property "Reference" "R716"
+			(at 195.58 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "453"
+			(at 195.58 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 195.326 67.056 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MFR50SFTE52-453R"
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18ef0ba9-dee4-4c88-a560-d04fd4df53a5")
+		)
+		(pin "2"
+			(uuid "5811d0f6-8561-4337-86b3-90e7d9f6d036")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R716")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R716")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 140.97 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6c67255-3933-40da-bb1b-d5b8f1755bce")
+		(property "Reference" "J701"
+			(at 142.748 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4-pin_0deg_header"
+			(at 156.464 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a79d7d2f-a5ce-43b5-a4a9-5f291294cacb")
+		)
+		(pin "2"
+			(uuid "0b2d9c4a-d1f4-4875-86a9-a94e9828e5a1")
+		)
+		(pin "4"
+			(uuid "6c7b16db-ceee-4a3c-8958-65ae06f7ec5a")
+		)
+		(pin "3"
+			(uuid "8f8207fb-ce43-46f5-9999-dbd233fddeee")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "J701")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "J701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 180.34 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec894ce1-0483-46e6-ab0a-9cdb253de6e5")
+		(property "Reference" "R714"
+			(at 180.34 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8.06k"
+			(at 180.34 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 180.086 61.976 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MFR50SFTE52-8K06"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18c6ec38-e163-4dc4-a703-02373b02a9fd")
+		)
+		(pin "2"
+			(uuid "4ca327a8-2eaa-440e-be8c-c1dde93ff94d")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R714")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R714")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 218.44 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "feb71fca-d914-4c2e-a843-6349c1e48718")
+		(property "Reference" "R725"
+			(at 218.44 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.99"
+			(at 218.44 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 218.694 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 218.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part Nr" "MFR50SFTE52-4R99"
+			(at 218.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "885424eb-98a7-4940-b874-45a4a0be37cf")
+		)
+		(pin "2"
+			(uuid "23bfbfe8-c18e-4eb1-99d2-61b76c6c2e3f")
+		)
+		(instances
+			(project "XAmplifier"
+				(path "/847ebd6d-cb9c-4233-9b7d-24c0f4a992c3/c9ecfa27-2643-4544-b3aa-ec37ab2f35e0"
+					(reference "R725")
+					(unit 1)
+				)
+			)
+			(project "XAmplifier_main"
+				(path "/ea16dd1c-4c81-4e9e-9570-12b82bfd1e70"
+					(reference "R725")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

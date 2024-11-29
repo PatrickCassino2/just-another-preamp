@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RB168L-60TFTE25
+D High reliability Small power mold type Super low IR General rectification
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb168l-60tfte25-e.pdf
+$ENDCMP
+#
+#End Doc Library

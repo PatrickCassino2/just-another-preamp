@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1MS1T1B4M7QES
+#/15975765/1232930/2.50/5/3/Switch
+DEF 1MS1T1B4M7QES S 0 30 Y Y 1 F N
+F0 "S" 850 300 50 H V L CNN
+F1 "1MS1T1B4M7QES" 850 200 50 H V L CNN
+F2 "1MS1T1B4M7QES" 850 100 50 H I L CNN
+F3 "https://www.dailywell.com.tw/en/search/index.html?q=1MS1T1B4M7QES&type=all" 850 0 50 H I L CNN
+F4 "Toggle Switches toggleSPDT switch on-on vertical right angle pc thru-hole" 850 -100 50 H I L CNN "Description"
+F5 "12.7" 850 -200 50 H I L CNN "Height"
+F6 "Dailywell" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "1MS1T1B4M7QES" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 850 -500 50 H I L CNN "Arrow Part Number"
+F9 "" 850 -600 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NO 1 0 0 200 R 50 50 0 0 P
+X COM 2 0 -100 200 R 50 50 0 0 P
+X NC 3 0 -200 200 R 50 50 0 0 N
+X MH1 MH1 1000 0 200 L 50 50 0 0 P
+X MH2 MH2 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

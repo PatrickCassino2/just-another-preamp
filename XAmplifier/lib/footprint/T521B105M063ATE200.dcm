@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP T521B105M063ATE200
+D T521, Tantalum, Polymer Tantalum, Commercial Grade, 1 uF, 20%, 63 VDC, 105C, -55C, 105C, SMD, Polymer, Molded, Low ESR, Non-Combustible, 2,000 Hrs, 8 % , 200 mOhms, 6300 nA, 94.85 mg, 3528, 1.9mm, Height Max = 2mm, 2000, 52  Weeks
+K
+F https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf
+$ENDCMP
+#
+#End Doc Library
