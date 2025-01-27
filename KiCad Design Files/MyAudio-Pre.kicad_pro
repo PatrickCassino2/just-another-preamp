@@ -62,42 +62,7 @@
         "clearance|116783055|81038874|e53fa2f6-b351-4f9e-9e23-e65d179d3663|09984fbd-5f0a-4717-adac-558c1117373e",
         "clearance|117433053|81038874|61533903-12c5-469a-ae27-77fb2cee1030|09984fbd-5f0a-4717-adac-558c1117373e",
         "clearance|118083055|81038874|361951cf-c930-4700-ac9f-f39d7d440051|09984fbd-5f0a-4717-adac-558c1117373e",
-        "clearance|118733053|81038874|58a28931-8cc4-40cd-a56b-21f0e1d5e548|09984fbd-5f0a-4717-adac-558c1117373e",
-        "courtyards_overlap|111487753|76893000|f45e3361-b51a-409e-9772-2e984da2eecd|053a3d43-1f6c-4db5-ad02-98a2ff67978c",
-        "courtyards_overlap|115559999|78020001|904d1daa-81ca-40d0-8561-5b20b41425b4|f1ddabc8-6fcb-4880-8314-bf842d2da5d8",
-        "courtyards_overlap|173693406|82350001|00edb68b-bbb7-40fb-a290-cb0288a1f5a9|6340aecd-7a0f-49f4-a703-6448da8c3a6e",
-        "courtyards_overlap|177179999|106950001|7864557d-c9eb-4026-9d00-ec44946cd571|87c78dd9-a753-4226-b32b-ab7089a62327",
-        "courtyards_overlap|77522663|113100001|329cdd92-d296-4a01-b2b9-dcdeb70d6a2b|dfd5832f-5a1b-4b30-b059-cbc5c839350c",
-        "silk_edge_clearance|179768785|75480800|d0095564-e8eb-4c5b-910d-a60c2895e9b5|4b7b4a8b-3da8-4cfc-96b6-e2ff75828e52",
-        "silk_edge_clearance|179768785|75480800|d0095564-e8eb-4c5b-910d-a60c2895e9b5|acafa1aa-580b-4cb3-a1f6-79f29db0fa50",
-        "silk_edge_clearance|194680000|125161323|5da60b31-ed1d-4545-b8cf-6b75b52b5e0e|797c8f0f-4cc9-4cb9-8a6a-ddbd582f00cb",
-        "silk_edge_clearance|194680000|132425723|5da60b31-ed1d-4545-b8cf-6b75b52b5e0e|741cf201-3c1c-405a-940a-2ca6f07bf87a",
-        "silk_edge_clearance|194680000|67962400|9c6c8a14-ed19-4081-a125-c96cd81426df|f4b75057-ce05-44d3-906c-90c7c88a4948",
-        "silk_edge_clearance|194680000|75226800|9c6c8a14-ed19-4081-a125-c96cd81426df|82eb54eb-d525-4790-99e7-d43391902c73",
-        "silk_edge_clearance|74680000|104470000|cb5c6437-b12b-4f6f-a8ee-47a27a18522b|2a2c91f1-6c39-4891-b93e-d763c40583a1",
-        "silk_edge_clearance|74680000|108770000|cb5c6437-b12b-4f6f-a8ee-47a27a18522b|ae78b940-41c9-49b5-901f-85545fb3d27e",
-        "silk_edge_clearance|74680000|131010000|cb5c6437-b12b-4f6f-a8ee-47a27a18522b|4aa557ed-48bc-488d-a522-6d36c1f5d076",
-        "silk_edge_clearance|74680000|82230000|cb5c6437-b12b-4f6f-a8ee-47a27a18522b|15ba91e6-b0f6-4cd0-8ca2-65027dc81c77",
-        "silk_edge_clearance|74725000|66870000|cb5c6437-b12b-4f6f-a8ee-47a27a18522b|a74391a7-d404-4743-9282-2ff99105e201",
-        "silk_edge_clearance|74725000|76030000|cb5c6437-b12b-4f6f-a8ee-47a27a18522b|8a5a4bf0-6dde-4cc7-a9a4-a6373940e875",
-        "silk_edge_clearance|74725000|76030000|cb5c6437-b12b-4f6f-a8ee-47a27a18522b|bf4130b1-e5e5-480a-afcc-32450dc741a3",
-        "unconnected_items|183278435|89300112|f4422354-b41d-4a47-87f4-7b0a636a7b73|4610da2d-c161-4ab6-b482-7828d6d5ad6a",
-        "via_dangling|189980000|123384000|44354fea-83fd-4525-96ca-1e83fad2ed46|00000000-0000-0000-0000-000000000000",
-        "via_dangling|189980000|124584000|62336fbb-0f30-4087-8608-6fd6344022f9|00000000-0000-0000-0000-000000000000",
-        "via_dangling|189980000|75784000|ce0cf9b6-4a80-4806-b147-808f264958ca|00000000-0000-0000-0000-000000000000",
-        "via_dangling|189980000|76984000|a395359c-ece8-44ae-af32-1b9de4ffa251|00000000-0000-0000-0000-000000000000",
-        "via_dangling|191280000|123384000|4b282c43-0145-41f1-ae5e-8ff9d8891102|00000000-0000-0000-0000-000000000000",
-        "via_dangling|191280000|124584000|545fcd48-b17c-475d-8836-0e642a87b67a|00000000-0000-0000-0000-000000000000",
-        "via_dangling|191280000|75784000|e920e660-0295-46cb-9fe0-1e4873d6351d|00000000-0000-0000-0000-000000000000",
-        "via_dangling|191280000|76984000|eb9587e5-61f6-46a6-9930-1a28b3ff7fdc|00000000-0000-0000-0000-000000000000",
-        "via_dangling|192580000|123384000|1df8f29e-0f1a-468e-a05b-e469c72e4fb6|00000000-0000-0000-0000-000000000000",
-        "via_dangling|192580000|124584000|804d9340-83ed-4124-8cdd-e9d4e51be33b|00000000-0000-0000-0000-000000000000",
-        "via_dangling|192580000|75784000|59e019ea-0bc4-47ed-8c5e-a6bea371331c|00000000-0000-0000-0000-000000000000",
-        "via_dangling|192580000|76984000|82b1b878-d5eb-44f1-9963-b02e1be94e4e|00000000-0000-0000-0000-000000000000",
-        "via_dangling|193880000|123384000|fa918f91-8ec1-4271-b108-695a42ccc4bb|00000000-0000-0000-0000-000000000000",
-        "via_dangling|193880000|124584000|9e00f9f5-1802-444f-be53-f368001d43bb|00000000-0000-0000-0000-000000000000",
-        "via_dangling|193880000|75784000|5698acea-3c1a-4a5d-9ff0-7994d75a60c8|00000000-0000-0000-0000-000000000000",
-        "via_dangling|193880000|76984000|06e0c2bc-541c-4330-afda-dbeda536bf27|00000000-0000-0000-0000-000000000000"
+        "clearance|118733053|81038874|58a28931-8cc4-40cd-a56b-21f0e1d5e548|09984fbd-5f0a-4717-adac-558c1117373e"
       ],
       "meta": {
         "version": 2
@@ -496,7 +461,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "XAmplifier.kicad_pro",
+    "filename": "MyAudio-Pre.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -541,7 +506,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 399,
+    "annotate_start_num": 99,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -573,6 +538,12 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
           "show": true
         },
         {
@@ -592,11 +563,59 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mfr Part Nr",
+          "name": "Mfr Part Nr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Placed",
+          "name": "Placed",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vendor",
+          "name": "Vendor",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -643,26 +662,6 @@
     [
       "847ebd6d-cb9c-4233-9b7d-24c0f4a992c3",
       "Root"
-    ],
-    [
-      "d862a122-ac95-45da-b0a8-c06e140d68e7",
-      "Phantom Power Management"
-    ],
-    [
-      "0cda80cc-ee35-486e-9033-3ba474367422",
-      "Input Gating"
-    ],
-    [
-      "ad939c64-3535-4efc-b504-0a146c26b0cf",
-      "Amplifier"
-    ],
-    [
-      "de4a76cc-2dca-4761-8448-936661290571",
-      "Hardware & IO Connectors"
-    ],
-    [
-      "1b4348e8-8549-4214-8ee9-d0fec2872e00",
-      "48V Regulator"
     ]
   ],
   "text_variables": {}
