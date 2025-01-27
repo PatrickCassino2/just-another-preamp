@@ -1,2 +1,2 @@
-# just-another-preamp
-An open-source microphone preamplifier aimed at updating and adapting OGJ's ThatMic Preamp
+# MyAudioStack Preamp
+An open-source microphone preamplifier aimed at  adapting OGJ's ThatMic Preamp to use USB power and SMT components.
